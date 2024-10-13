@@ -1,0 +1,28 @@
+.button {
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+  background-color: #4B51EF;
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color .3s;
+  &.submitBtn {
+    background-color: #52CF4F;
+    &:hover {
+      background-color: #42ad40;
+    }
+  }
+  &:disabled {
+    background-color: #AFAFAF;
+    cursor: auto;
+    &:hover {
+      background-color: #AFAFAF;
+    }
+  }
+}
+
+.button:hover {
+  background-color: #3D43C4;
+}
+

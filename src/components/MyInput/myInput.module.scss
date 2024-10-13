@@ -1,0 +1,23 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  input,
+  textarea {
+    padding: 4px 10px;
+    border: 1px solid #D8D8D8;
+    border-radius: 5px;
+    max-width: 211px;
+    width: 100%;
+    &:disabled {
+      color: #D8D8D8;
+    }
+  }
+  textarea {
+    min-width: 100%;
+    min-height: 55px;
+  }
+  &.error input {
+    border-color: red;
+  }
+}
